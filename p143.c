@@ -1,5 +1,5 @@
 /*problem on bitwise operator
-wap to check whether 4th bit is on or not
+wap to check whether 4th bit is on or not using UINT typedef
 i/p:4
 o/p:100
 */

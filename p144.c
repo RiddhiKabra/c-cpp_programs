@@ -9,7 +9,7 @@ o/p:100
 typedef unsigned int UINT;
 bool CheckBit(int iNo)
 {
-	UINT iMask=0x0010000;
+	UINT iMask=0x00100000;
  UINT iResult=0;
  iResult=iNo&iMask;
  if (iResult==iMask)
@@ -32,11 +32,11 @@ int main()
   bRet= CheckBit(iValue);
   if(bRet==true)
   {
-    printf("4th bit is On\n");
+    printf("21st bit is On\n");
   }
   else
   {
-     printf("4th bit is Off\n");
+     printf("21st bit is Off\n");
   }
 	return 0;
 }

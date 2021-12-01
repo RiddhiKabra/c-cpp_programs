@@ -22,7 +22,7 @@ public:
         fd = open(Fname,O_RDWR);
     }
     
-    ~MarvellousFile()   // Desructor
+    ~MarvellousFile()   // Destructor
     {
         cout<<"Inside Destructor\n";
         close(fd);

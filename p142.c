@@ -1,5 +1,5 @@
 /*problem on bitwise operator
-wap to check whether 4th bit is on or not
+wap to check whether 8th bit is on or not
 i/p:4
 o/p:100
 */
@@ -7,7 +7,7 @@ o/p:100
 #include <stdbool.h>
 bool CheckBit(int iNo)
 {
-	int iMask=0x00000008;
+	int iMask=0x00000008;  
  int iResult=0;
  iResult=iNo&iMask;
  if (iResult==iMask)

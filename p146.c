@@ -1,6 +1,6 @@
 
 /*problem on bitwise operator
-wap to check whether firstst 4 bits(nibble) bit are on or not
+wap to check whether first 4 bits(nibble) bit are on or not
 i/p:4
 o/p:100
 */
@@ -9,9 +9,9 @@ o/p:100
 typedef unsigned int UINT;
 bool CheckBit(int iNo)
 {
-  UINT iMask=0x0000000f;  //0000 0000 0000 0000 0000 1000 0100 1111
+  UINT iMask=0x0000000f;  //0000 0000 0000 0000 0000 0000 0000 1111
                           //0      0    0   0     0     0   0   f
-                          //0x00000840  
+                          //0x00000000f 
 
  UINT iResult=0;  
  iResult=iNo&iMask;
